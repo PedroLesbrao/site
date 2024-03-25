@@ -1,0 +1,57 @@
+body{
+    background: radial-gradient(ellipse at center,
+                               rgb(143, 86, 235) 0%,
+                               rgb(144, 105, 207) 100%);
+}
+img{
+    width: 150px;
+    height: auto;
+    border: 1px dotted #000;
+    padding: 5px;
+}
+td.tdfoto{
+    width: 15%;
+    height: auto;
+}
+td.tddescricao{
+    width: 50%;
+    height: auto;
+    padding: 5px 10px 5px 10px;
+    font-size: 25px;
+}
+td.tdinfo{
+    width: 15%;
+    height: auto;
+    text-align:center;
+    font-size: 25px;
+}
+.info{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #050505;
+}
+td.tdbotao{
+    width:20%;
+    height:auto;
+}
+
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #050505;
+    padding: 10px 20px;
+    background: linear-gradient(to bottom, #FFF 0%,
+                #EBEBEB 50%, #DBDBDB 50%, #B5B5B5);
+    border-radius: 10px;
+}
+
+button:hover{
+    background: linear-gradient(to top, #FFF 0%,
+                #EBEBEB 50%, #DBDBDB 50%, #B5B5B5);
+}
+
+#site{
+    width: 70%;
+    margin: 0px auto;
+    text-align: center;
+}
